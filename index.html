@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test 1</title>
+</head>
+<body>
+    <div class="start">
+
+    <h1>Test 1</h1>
+    </div>
+
+
+    <div class="paper">
+        <h1>How a cat eat</h1>
+
+<button onclick="doSomething()"><img src="https://www.myweekly.co.uk/wp-content/uploads/sites/9/2018/08/iStock-917306500.jpg" height="200"></button>
+<br>
+<button onclick="doSomething2()"><img src="https://media.salon.com/2013/08/shutterstock_81166582.jpg" height="200"></button>
+
+<p id="id"></p>
+    </div>
+
+
+
+    <div class="paper2">
+        <H1>How a dog eat</H1>
+
+        <button onclick="doMod()"><img src="https://media.salon.com/2013/08/shutterstock_81166582.jpg" height="200"></button>}
+        <br>
+        <button onclick="doMod2()"><img src="https://th.bing.com/th/id/OIP.kfkmRfqV4QiHZn4AGABNpAHaFD?rs=1&pid=ImgDetMain" height="200"></button>
+<p id="id5"></p>
+    </div>
+
+
+
+    <div class="send">
+        <button onclick="send()">send</button>
+        <p id="send"></p>
+    </div>
+
+
+<script>
+    function doSomething(){
+        document.getElementById('id').innerHTML = "Correct!";
+        }
+        
+        function doSomething2(){
+        document.getElementById('id5').innerHTML = "Incorrect";
+    
+    }
+
+    function doMod2(){
+        document.getElementById('id5').innerHTML = "Correct!";
+
+    
+    }
+
+    function doMod(){
+        document.getElementById('id5').innerHTML = "Incorrect";
+        
+    
+    }
+
+
+
+    function send(){
+        document.getElementById('send').innerHTML = "sended";
+    }
+
+
+
+</script>
+
+
+
+<style>
+    body{
+        background-color: aqua;
+
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .start{
+        background-color: orange;
+        border-radius: 200px;
+
+        display: flex;
+        justify-content: center;
+    }
+
+.paper{
+    background-color: orange;
+    border-radius: 10px;
+}
+
+
+.paper2{
+    background-color: orange;
+    border-radius: 10px;
+}
+
+
+.send{
+    background-color: blueviolet;
+border-radius: 200px;
+}
+</style>
+</body>
+</html>
